@@ -1,0 +1,75 @@
+.carousel-container{
+  min-height: 70vh;
+  background-color: beige;
+  text-align: center;
+  /* margin-top: 15vh; */
+  /* padding-top: 10vh; */
+}
+.our-services-container{
+  min-height: 80vh;
+  background-color: #282c34;
+  text-align: center;
+  color: white;
+}
+.common-padding{
+  padding: 10vh;
+}
+.common-top-margin{
+  margin-top: 10vh;
+}
+.common-left-margin{
+  margin-left: 12vh;
+}
+.common-bottom-margin{
+  margin-bottom: 12vh;
+}
+.common-centered-text{
+  text-align: center;
+}
+.common-left-text{
+  text-align: left;
+}
+.common-right-text{
+  text-align: right;
+}
+
+.services-text{
+  font-size: 1.5rem;
+}
+.services-text-big{
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+
+.card-text{
+  font-size: 1rem;
+}
+.card-text-big{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.card-main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 20px;
+  cursor: pointer;
+  min-height: 20vh;
+  width: 25vw;
+}
+.card-main-container:hover{
+  border-radius: 30px;
+  background-color: #B22222;
+  color: white;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+

@@ -1,0 +1,18 @@
+.backgr{
+    background-color: #282c34;
+    text-align: center;
+    z-index: 999999;
+}
+.initial-ht{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    transition: height 0.5s ease;
+}
+
+
+.company-name-text{
+    font-size: 2rem;
+    color: white;
+    transition: padding-top 0.5s ease;
+}
