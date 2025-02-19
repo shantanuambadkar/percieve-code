@@ -1,15 +1,16 @@
 import '../css/App.css'
-import successman from '../images/successman.jpg';
+import perceiveLogo from '../images/perceiveLogo.svg';
+
 
 export default function CarouselSection(){
     return(
         <div className='common-padding carousel-container'>
             <div>
-                <img src={successman} alt="Successful man"/>
+                <img src={perceiveLogo} className='logo-margin' alt="Perceive Logo"/>
             </div>
-            <div className='services-text'>
+            {/* <div className='services-text'>
                 Be Inspired by the Best.
-            </div>
+            </div> */}
         </div>
     )
 }

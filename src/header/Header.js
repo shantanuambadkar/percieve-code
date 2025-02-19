@@ -28,7 +28,7 @@ export default function Header(){
 
     return (
         <div style={{ height: headerHeight }} className='initial-ht backgr'>
-            <div style={{ paddingTop: comapnyNamePadding }} className='company-name-text'>Percieve.IN</div>
+            <div style={{ paddingTop: comapnyNamePadding }} className='company-name-text'>Perceive.IN</div>
         </div>
     )
 }

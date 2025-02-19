@@ -1,12 +1,12 @@
 .backgr{
-    background-color: #282c34;
+    background-color: #044F7A;
     text-align: center;
     z-index: 999999;
+    width: 100%;
 }
 .initial-ht{
     position: sticky;
     top: 0;
-    width: 100%;
     transition: height 0.5s ease;
 }
 
